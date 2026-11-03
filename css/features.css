@@ -1,0 +1,20 @@
+.features h3 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+.features p {
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin-top: 8px;
+    max-width: 264px;
+}
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+.features {
+    padding: 120px 0;
+}
