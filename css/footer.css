@@ -9,19 +9,18 @@
     letter-spacing: 0.03em;
     line-height: 1.33;
     color: #f4f4fd; 
+    margin-bottom: 16px;
 }
 .footer p {
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-top: 16px;
+    
     max-width: 264px;
 }
 .footer> .container {
     display: flex;
-    flex-direction: column;
+    
     justify-content: flex-start;
-   
-   
 }
 .page-container {
     min-height: 100vh;
@@ -34,3 +33,29 @@ main {
 .footer {
      padding: 100px 0;
 }
+.social-media {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.footer social {
+    gap: 16px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+}
+.right {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 120px;
+    
+}
+.right .social {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+.right a:hover,
+.right a:focus {
+    background-color: #31D0AA;
+} 
